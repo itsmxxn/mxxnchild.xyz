@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@700&display=swap');
+
+* {
+    color: #002859;
+    font-family: 'dongle';
+    font-size: 130%;
+}
+body {
+    max-width: 70%;
+    margin: 0 auto;
+    background-color: #7bb5d4;
+  }
+  
+  /* styles for smaller screens */
+  @media screen and (max-width: 480px) {
+    body {
+      max-width: 90%;
+    }
+  }
+  
